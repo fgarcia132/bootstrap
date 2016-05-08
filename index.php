@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en">
 	<head>
 		<meta charset="UTF-8">
 
@@ -25,13 +25,14 @@
 		<![endif]-->
 
 		<!-- CSS -->
-		<link rel="stylesheet" href="css/stylesheet.css" type="text/css">
+		<link rel="stylesheet" href="css/style.css" type="text/css">
 
 		<!-- jQuery -->
 		<script src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
 
 		<!-- minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
 
 		<title>Bootstrap Practice</title>
 	</head>
@@ -45,7 +46,7 @@
 					<div class="navbar-header">
 						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
 							<span class="sr-only">Toggle navigation</span>
-							<i class="fa fa-bars" aria-hidden="true"></i>
+							<i class="fa fa-th fa-2x fa-spin" aria-hidden="true"></i>
 						</button>
 						<a class="navbar-brand" href="#">Bootstrap Sample</a>
 					</div>
@@ -58,83 +59,93 @@
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More Items <span class="caret"></span></a>
 								<ul class="dropdown-menu">
 									<li><a href="http://google.com">Google.com</a></li>
-									<li><a href="https://reddit.com/>Reddit</a></li>
+									<li><a href="https://reddit.com/">Reddit</a></li>
 								</ul>
 							</li>
 						</ul>
 					</div><!-- /.navbar-collapse -->
 				</div>
 			</header>
+
 			<main>
 				<div class="container">
-										<div class="row">
+					<div class="row">
 
-											<!--welcome section-->
-											<div class="col-xs-12 well text-center">
-												<h1>Bootstrap Welcomes You</h1>
-												<p>......</p>
-											</div>
-											<!--1st content section-->
-											<div class="row">
-												<div class="col-md-3">
-													<div class="well">
-														<h4>Section 1</h4>
-														<p>Sometimes a PBR daydreams, but another Red Stripe of a Pilsner always eats some muddy broken bottle! An often whacked Rolling Rock, the Long Trail Ale, and another jersey cow about the blue moon are what made America great!</p>
-													</div>
-												</div>
-												<div class="col-md-3">
-													<div class="well">
-														<h4>Section 2</h4>
-														<p>For example, a Dos Equis defined by a corona light indicates that the Mango Beer stumbly eats an Avery IPA. When the Corona Extra living with a Yuengling is hammered, the tornado brew brainwashes another Christmas Ale.</p>
-													</div>
-												</div>
-												<div class="col-md-3">
-													<div class="well">
-														<h4>Section 3</h4>
-														<p>Indeed, the Coors defined by a Brewers Reserve operates a small bar with a blitzed miller. Sometimes a Dos Equis daydreams, but the chain saw always accidentally finds much coolness with the underhandedly dry ice house!</p>
-													</div>
-												</div>
-												<div class="col-md-3">
-													<div class="well">
-														<h4>Section 4</h4>
-														<p>The stumbly Alaskan Ipswich Ale conquers a Christmas Ale. Any Citra Ninja can avoid contact with the frozen PBR, but it takes a real Honey Brown to find lice on the Lone Star.</p>
-													</div>
-												</div>
-											</div>
-											<!--2nd content section-->
-											<div class="row">
-												<div class="col-md-6">
-													<div class="well">
-														<h4>section 5</h4>
-													</div>
-												</div>
-												<div class="col-md-6">
-													<div class="well">
-														<h4>section 6</h4>
-													</div>
-												</div>
-											</div>
-										</div><!--/.row-->
-					</div><!--/.container-->
-				</div>
-				</div>
-				<footer>
-					<div class="container">
+						<!--welcome section-->
+						<div class="col-xs-12 well text-center">
+							<h1>Bootstrap Welcomes You</h1>
+							<p>...</p>
+						</div>
+
+						<!--1st content section-->
 						<div class="row">
-							<div class="col-md-12">
-								<div class="foot-content">
-									content here
+							<div class="col-md-3">
+								<div class="well">
+									<h4>Section 1</h4>
+									<p>My left donut is missing, as is my right use lap as chair. Lick the other cats scamper sit in box meowzer!. Immediately regret falling into bathtub unwrap toilet paper hola te quiero. Eat from dog's food white cat sleeps on a black shirt hide head under blanket so no one can see.</p>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="well">
+									<h4>Section 2</h4>
+									<p>Content</p>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="well">
+									<h4>Section 3</h4>
+									<p>Content</p>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="well">
+									<h4>Section 4</h4>
+									<p>Content</p>
 								</div>
 							</div>
 						</div>
+
+						<!--2nd content section-->
 						<div class="row">
-							<div class="col-xs-12">
-								<div class="copyright text-center">
-									&copy; 1987
+							<div class="col-md-6">
+								<div class="well">
+									<h4>section 5</h4>
 								</div>
 							</div>
+							<div class="col-md-6">
+								<div class="well">
+									<h4>section 6</h4>
+								</div>
+							</div>
+						</div>
+					</div><!--/.row-->
+				</div><!--/.container-->
+			</main>
+
+		</div>
+
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="foot-content">
+							content here
 						</div>
 					</div>
-				</footer>
+					<div class="col-md-6">
+						<div class="foot-content">
+							content here
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="copyright text-center">
+							&copy; <i class="fa fa-copyright" aria-hidden="true"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
 	</body>
 </html>

@@ -1,5 +1,5 @@
 header {
-	background-color: #ffffff;
+	background-color: darkgray;
 }
 
 /***
@@ -14,9 +14,9 @@ main {
 ***/
 footer {
 	background-color: black;
-	color: grey;
+	color: ghostwhite;
 	padding: 2rem 0;
-	color: #888;
+
 }
 
 .foot-content {
@@ -26,7 +26,7 @@ footer {
 }
 
 .copyright {
-	font-size: 0.9em;
+	font-size: 0.7em;
 	font-style: italic;
 }
 
