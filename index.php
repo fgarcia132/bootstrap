@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 	<head>
 		<meta charset="UTF-8">
 
@@ -116,7 +116,7 @@
 											</div>
 										</div><!--/.row-->
 					</div><!--/.container-->
-					</main>
+				</div>
 				</div>
 				<footer>
 					<div class="container">
@@ -130,7 +130,7 @@
 						<div class="row">
 							<div class="col-xs-12">
 								<div class="copyright text-center">
-									&copy; <i>"fa fa-copyright" aria-hidden="true"></i>1987
+									&copy; 1987
 								</div>
 							</div>
 						</div>
