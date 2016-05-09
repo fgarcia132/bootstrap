@@ -25,7 +25,7 @@
 		<![endif]-->
 
 		<!-- CSS -->
-		<link rel="stylesheet" href="css/stylesheet.css" type="text/css">
+		<link rel="stylesheet" href="CSS/stylesheet.css" type="text/css">
 
 		<!-- jQuery -->
 		<script src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
@@ -141,7 +141,7 @@
 				<div class="row">
 					<div class="col-xs-12">
 						<div class="copyright text-center">
-							&copy; <i class="fa fa-copyright" aria-hidden="true"></i>
+							<i class="fa fa-copyright" aria-hidden="true"></i>
 						</div>
 					</div>
 				</div>
