@@ -48,7 +48,7 @@
 							<span class="sr-only">Toggle navigation</span>
 							<i class="fa fa-th fa-2x fa-spin" aria-hidden="true"></i>
 						</button>
-						<a class="navbar-brand" href="#">Bootstrap Sample</a>
+						<a class="navbar-brand" href="#">Bootstrap Practice</a>
 					</div>
 
 					<!-- Collect the nav links, forms, and other content for toggling -->
